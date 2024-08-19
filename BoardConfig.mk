@@ -87,7 +87,10 @@ VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
+TW_EXCLUDE_BASH := true
+TW_EXCLUDE_NANO := true
 TW_EXCLUDE_TWRPAPP := true
+TW_EXCLUDE_MTP := true
 # Tell device there is Samsung (odin) download mode
 TW_HAS_DOWNLOAD_MODE := true
 TW_NO_REBOOT_BOOTLOADER := true

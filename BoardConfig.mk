@@ -94,10 +94,11 @@ TW_NO_REBOOT_BOOTLOADER := true
 # Needed to control brightness
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/15400000.usb/15400000.dwc3/gadget/lun%d/file"
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
-TW_THEME := landscape_hdpi
+TW_THEME := portrait_hdpi
+TW_ROTATION := 270
 # Touchscreen correction
-RECOVERY_TOUCHSCREEN_SWAP_XY := true
-RECOVERY_TOUCHSCREEN_FLIP_Y := true
+#RECOVERY_TOUCHSCREEN_SWAP_XY := true
+#RECOVERY_TOUCHSCREEN_FLIP_Y := true
 # external sdcard
 RECOVERY_SDCARD_ON_DATA := true
 TW_EXTRA_LANGUAGES := true
